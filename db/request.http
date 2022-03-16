@@ -1,0 +1,25 @@
+### Verivicacion de que solo es una api de lectura
+GET http://localhost:8080/libros
+
+###
+PUT http://localhost:8080/libros
+Content-Type: application/json
+
+{
+    "id":20,
+    "titulo": "espero que no se envie"
+}
+
+### Delete
+DELETE http://localhost:8080/libros/1
+
+# Copia por las dudas borre
+# {
+# 			"id": 1,
+# 			"titulo": "Harry Potter y la piedra filosofal",
+# 			"titulo_original": "Harry Potter and the Sorcerer's Stone",
+# 			"fecha_de_lanzamiento": "26 de junio de 1997",
+# 			"autora": "J. K. Rowling",
+# 			"descripcion": "El día de su cumpleaños, Harry Potter descubre que es hijo de dos conocidos hechiceros, de los que ha heredado poderes mágicos. Debe asistir a una famosa escuela de magia y hechicería, donde entabla una amistad con dos jóvenes que se convertirán en sus compañeros de aventura. Durante su primer año en Hogwarts, descubre que un malévolo y poderoso mago llamado Voldemort está en busca de una piedra filosofal que alarga la vida de quien la posee.",
+# 			"imagen": "https://images-na.ssl-images-amazon.com/images/I/51DF6ZR8G7L._SX329_BO1,204,203,200_.jpg"
+# 		}
