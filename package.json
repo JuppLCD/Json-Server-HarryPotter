@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "json-server --watch db/db.json --ro true"
+		"start": "node server.js",
+		"server": "json-server --watch db/db.json --ro true"
 	},
 	"keywords": [],
 	"author": "JuppLCD <lorenzocanovas207@gmail.com>",
